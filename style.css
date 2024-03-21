@@ -1,0 +1,408 @@
+/* BASE RESET.... */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* DISPLAY.... */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+.body{
+    background-color: #ffcd01;
+    font-family: 'PT Sans Narrow', sans sans-serif;
+    color:#2d2d2d;
+    
+}
+
+/* LANDING PAGE.... */
+
+.headingFont{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight:700;
+    font-size:110px;
+    color:#2d2d2d
+}
+.block{
+display: inline-block;
+vertical-align: top;
+}
+.block2{
+    width:500px;  
+    height:500px;
+    background-image: url('Images/KwayeLandingPage.png');
+}
+.block1{
+text-align: center;
+padding-top: 90px;
+width: 500;
+height: 590;
+}
+.mainContent{
+    text-align: center;
+    margin-top: 5%;
+}
+.inputStyle{
+    font-family: 'PT Sans Narrow', sans sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background: transparent;
+    margin: 12px 0;
+    border-style: solid; 
+    border-color: #2d2d2d;
+}
+
+.loginButton{
+    background-color:transparent;
+    border: 2px solid #2d2d2d;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 3px 13px;      
+    text-align: center;
+    color: #2d2d2d;
+    text-decoration: none;
+}
+.loginButton:focus{
+    background-color: #FBEDD4;
+}
+
+.signupStyle{
+    color:#2d2d2d
+}
+.h2Style{
+    margin: 12px 0;
+    font-size: 20px;
+    font-weight:400;
+}
+.buttonStyle{
+    margin: 12px 0;
+}
+
+/* HOMEPAGE.... */
+
+
+.kwaye{
+   font-size: 15vw;
+   font-weight: 15vh;
+   text-align: left;
+   object-fit:cover;
+   color:#FBEDD4;
+   margin-left: 100px;
+   margin-top: 150px;
+   
+}
+
+.heading{
+    width: 100vw;
+    height:100vh;
+   
+}
+.container {
+    width: 100vw;
+    height:100vh;
+    text-align:center;
+    margin-top: 0;
+    margin-left: 0;
+}
+.backVideo{
+    width: 100%;
+    height: 50%;
+}
+#background-video{
+    
+  width: 100vw;
+  height: 100vh;
+  object-fit:cover;
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  
+}
+
+.musicReleaseImage{
+    width:500px;
+    height:auto;
+}
+
+.musicReleaseWords{
+    width:25%; 
+    height:25%;
+    text-align: center;
+    margin-top: 70px;
+}
+.musicReleaseContainer{
+   width:100vw;
+   min-height:100vh;
+   text-align: center;
+   margin-top: 10%;
+
+}
+.musicReleaseWordsFont{
+    font-size: 60px;
+}
+.concertContainer{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #FBEDD4;
+    text-align: center;
+    padding-top: 5%;
+}
+.concertsTitle{
+    font-size: 50px;
+    text-align: center;
+}
+.concertsTitleBlock{
+    text-align: center;
+}
+
+.concertsTable{
+    text-align: left;
+    margin-left: 25%;
+    
+}
+.leftColumn{
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    
+}
+.venue{
+    font-weight: 400;
+}
+.ticketButton{
+    background-color:transparent;
+    border: 2px solid #2d2d2d;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 3px 13px;      
+    text-align: center;
+    color: #2d2d2d;
+    text-decoration: none;
+}
+.ticketButton:focus{
+    background-color: #ffcd01;
+}
+.iconSize{
+    width: 30px;
+    height: 30px;
+}
+.iconContainer{
+    width:100vw;
+    height:8vh;
+    text-align: center;
+    background-color: #ffcd01;
+
+}
+.iconBlock{
+    display:inline-block;
+    padding: 20px;
+}
+.iconApple{
+    padding-bottom: 3px;
+}
+.firstVenue{
+    display:inline-block;
+}
+.secondVenue{
+    display:inline-block;
+}
+.firstVenueContainer{
+    padding-bottom: 25px;
+}
+
+/* CONCERT DATES.... */
+
+.kwayeTop{
+    width: 100vw;
+    height: 20vh;
+}
+.kwayeTopFont{
+    font-size: 110px;
+    text-align: center;
+    
+}
+.concertContainer1{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #FBEDD4;
+    text-align: center;
+    padding-top: 5%;
+}
+.shadow{
+    box-shadow: 15px 0px 15px #2d2d2d;
+    position: relative;
+}
+.thirdVenue{
+    display:inline-block;
+}
+.secondVenueContainer{
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+.thirdVenueContainer{
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+.fourthVenue{
+    display:inline-block;
+}
+.ticketButtonPos{
+    margin-left: 5%;
+}
+.map{
+    width: 30%;
+    height: 20%;
+    padding: 25px;
+}
+.concertDatesContainer{
+    width:100vw;
+    height:100vh;
+}
+
+/* TICKET NUMBERS.... */
+
+.ticketNumbers{
+    padding:15px;
+}
+.ticketNumberButton1{
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+.ticketNumberButton2{
+    display:inline-block;
+    padding: 0px 15px 0px ;
+}
+.ticketNumberContainer{
+    width: 100vw;
+    height: 60vh;
+    background-color: #FBEDD4;
+    text-align: center;
+    padding-top: 5%;
+    position: relative;
+    
+}
+.iconContainerTicketNumber{
+    width:100vw;
+    max-height:50vh;
+    text-align: center;
+    background-color: #ffcd01;
+}
+
+.concertDatesContainerTicketNumber{
+    width:100vw;
+    height:20vh;
+}
+
+/* SEAT NUMBERS.... */
+.seatNumberButtonContainer{
+    margin: 20px 0px 20px;
+}
+.ticketConfirmation{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #FBEDD4;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.concertContainerSeat{
+    width: 100vw;
+    min-height: 35vh;
+    background-color: #FBEDD4;
+    text-align: center;
+}
+
+/* TICKET PAYMENT.... */
+.li{
+    display:inline-block;
+    
+}
+.paymentIconSize{
+    max-width: 6vw;
+    max-height: 8vh;
+}
+.ul{
+    margin-top: 2%;
+}
+
+/* OTP... */
+
+.OTPContainer{
+    width: 100vw;
+    height: 50vh;
+    background-color: #FBEDD4;
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* BOOKING CONFIRMATION */
+
+.vidContainer{
+    width: 100vw;
+    height:100vh;
+}
+.bookingConfirmationTitle{
+    background-color: #ffcd01;
+}
+.bookingConfirmationFont{
+    color: #FBEDD4;
+    font-size: 70px;
+}
+.bookingConfirmationFontPos{
+    padding: 15%;
+    text-align: center;
+    vertical-align: middle;
+}
+.backToHomeButton{
+    background-color:transparent;
+    border: 2px solid #FBEDD4;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 3px 13px;      
+    text-align: center;
+    color: #FBEDD4;
+    text-decoration: none;
+}
+
+/* NAVIGATION BAR.... */
+
+.nav{
+    width:100%;
+    text-align: right;
+    margin-bottom: 20px
+    position: fixed;
+}
+
+.navList{
+   list-style-type: none; 
+}
+.navLink{
+    display:block;
+    padding: 32px 30px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    color: #FBEDD4;
+}
+.navItem{
+    display: inline-block;
+}
+.navLink1{
+    display:block;
+    padding: 32px 30px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+/* GO BACK BUTTON.... */
+
+.goBack{
+    padding-top: 25px;
+}
